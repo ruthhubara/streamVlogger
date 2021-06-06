@@ -1,0 +1,133 @@
+.chat-sidebar {
+    margin-top: 250px;
+    border: 2px solid !important;
+    border-radius: 20px 0px 0px 0px !important;
+    border-left-color: chartreuse !important;
+    border-top-color: chartreuse !important;
+    background: #202020 0% 0% no-repeat padding-box;
+    box-shadow: -1px 2px 6px #00000029;
+    height: 70% !important;
+    scrollbar-color: rebeccapurple green;
+    scrollbar-width: thin;
+}
+
+.form-control {
+    border-radius: 40px;
+}
+
+#avatar {
+    float: left;
+}
+
+.chatX {
+    color: white!important;
+    right: 444px;
+    left: 224px;
+    margin-left: 264px;
+    margin-top: -43px;
+}
+
+.chatXblack {
+    color: black!important;
+    right: 444px;
+    left: 224px;
+    margin-left: 264px;
+    margin-top: -43px;
+}
+
+.my-message {
+    border-radius: 0px 30px 30px 25px;
+    background-color: grey;
+}
+
+.received-message {
+    background-color: chartreuse;
+    border-radius: 25px 30px 30px 0px;
+}
+
+phone-input {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--clr-text-input);
+    font-size: 0.575em;
+    background-color: var(--clr-white);
+    padding: 0.5em 0.75em 0.5em 1.5em;
+    margin: 0 0.5em 0.5em 0.5em;
+    border-radius: 25px;
+    position: relative;
+}
+
+.inputSendMessage {
+    top: 995px;
+    width: 340px;
+    height: 45px;
+    opacity: 1;
+}
+
+.sendIconButton {
+    border-radius: 0px 20px 20px 0px !important;
+    background-color: #ffffff;
+    height: 38px;
+}
+
+#dateWave {
+    font-size: small;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+
+.message {
+    color: #0e0b0b;
+    padding: 14px 16px;
+    line-height: 26px;
+    font-size: 16px;
+    border-radius: 40px;
+    margin-bottom: 30px;
+    margin-right: -180px;
+    background-color: white;
+    border-radius: 25px 30px 30px 0px;
+    position: relative;
+    border: chartreuse 2px solid;
+    width: 200px;
+    white-space: pre-wrap;
+}
+
+/* .float-right {
+    float: right;
+} */
+
+.coll {
+    width: 320px;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    z-index: 1030;
+}
+
+.s-is-shown {
+    color: #FCF816;
+    line-height: 120%;
+    font-size: 40px;
+    margin-left: 40%;
+    width: 90%;
+    position: relative;
+    border-radius: 25px 30px 30px 0px;
+}
+
+.s-is-hidden {
+    visibility: hidden;
+}
+
+.blackWhite {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-left: 237px;
+    margin-top: -5px;
+}
+
+.textErea {
+    resize: none;
+    max-height: 50px;
+}
